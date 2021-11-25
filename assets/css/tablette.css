@@ -56,11 +56,17 @@
     /* Bloc Hébergements */
     
     .blocHebergements{
+        width: 96%;
         background-color: white;
     }
     
     .ongletHebergements{
-        gap: 36.9px;
+        height: 90%;
+    }
+
+    .ongletHebergements a{
+        width: 45%;
+        height: 30%;
     }
     
     

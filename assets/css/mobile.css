@@ -131,6 +131,7 @@
     .blocHebergements{
         background-color: white;
         padding: 0;
+        width: 100%;
     }
     
     .blocHebergements > h2{
@@ -139,11 +140,16 @@
     
     .ongletHebergements{
         flex-direction: column;
-        gap: 5px;
+    }
+
+    .ongletHebergements a{
+        height: 15%;
+        width: 100%;
     }
     
     .ongletHebergement{
         width: 100%;
+        height: 100%;
     }
     
     /*      Activités       */
