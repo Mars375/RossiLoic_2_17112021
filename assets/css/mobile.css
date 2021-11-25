@@ -1,0 +1,196 @@
+@media screen and (max-width: 767px){
+    /*      General     */
+    .mt{
+        margin-top: 10px;
+    }
+    
+    body > *{
+        margin: 0 20px;
+    }
+    
+    /*      Navigation      */
+    
+    nav a{
+        padding: 0;
+    }
+    
+    header{
+        flex-direction: column;
+        margin: 0;
+    }
+    
+    header > div{
+        text-align: center;
+        margin-left: 15%;
+    }
+    
+    nav > ul{
+        width: 100%;
+    }
+    
+    nav > ul > li{
+        padding: 20px 0 10px 0;
+        width: 50%;
+        text-align: center;
+        border-bottom: 2px solid var(--grey);
+    }
+    
+    nav li:hover{
+        color : var(--blue);
+        border-bottom: 2px solid var(--blue);
+        padding-bottom: 10px;
+    }
+    
+    nav li a:hover{
+       border-top: none;
+    }
+    
+    /*      Barre de Recherche      */
+    
+    .barreRecherche{
+        padding-top: 15px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .rechercher {
+        text-align: center;
+    }
+    
+    .rechercher h2{
+        margin-top: 0;
+        font-size: 20px;
+        text-align: left;
+    }
+    
+    .rechercher p{
+        text-align: left;
+    }
+    
+    .bouttonRechercher > i{
+        display: inherit;
+    }
+    
+    .bouttonRechercher > span{
+        display: none;
+    }
+    
+    .bouttonRechercher{
+        position: relative;
+        left: -15px;
+        border-radius: 15px;
+        width: 15%;
+    }
+    
+    /*      Filtres     */
+    
+    #filtres{
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+        
+    .filtres{
+        flex-direction: column;
+    }
+    
+    /* Ligne information */
+    
+    .ligneInfo{
+        justify-content: center;
+    }
+    
+    
+    /*      Bloc Hôtel      */
+    
+    .conteneurHotel{
+        flex-direction: column;
+    }
+    
+    
+    .conteneurHotel{
+        gap: 20px;
+    }
+    
+    /*      Populaire       */
+    
+    .blocPopulaire{
+        margin-left: -20px;
+        border-radius: 0;
+        width: 100%;
+    }
+    
+    .ongletPopulaires{
+        gap: 10px;
+    }
+    
+    /*      Hébergement à Marseille     */
+    
+    .blocHebergements{
+        background-color: white;
+        padding: 0;
+    }
+    
+    .blocHebergements > h2{
+        margin: 0;
+    }
+    
+    .ongletHebergements{
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .ongletHebergement{
+        width: 100%;
+    }
+    
+    /*      Activités       */
+    
+    .blocActivites{
+        flex-direction: column;
+        width: 100%;
+        margin: 10px auto;
+        gap: 20px;
+    }
+    
+    .divImgActivites > p{
+        font-size: 18px;
+        font-weight: 800;
+        align-items: flex-start;
+        margin: 30px;
+    }
+    .blocActivites > *{
+        width: 100%;
+        gap: 20px;
+    }
+    
+    #activitiesAnchor{
+        margin: 15px;
+    }
+    
+    .ImgActivites1{
+        height: 150px;
+    }
+    
+    .ImgActivites3{
+        height: 150px;
+    }
+    
+    .ImgActivites4{
+        height: 150px;
+    }
+    
+    /*      Footer      */
+    
+    footer{
+        margin: 0;
+        flex-direction: column;
+    }
+    
+    footer *{
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    }

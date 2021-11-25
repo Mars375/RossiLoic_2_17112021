@@ -1,0 +1,83 @@
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+    /* Général */
+    
+    main{
+        margin:auto;
+    }
+    
+    /* Barre de recherche */
+    
+    .rechercher {
+        text-align: center;
+    }
+    
+    .barreRecherche{
+        justify-content: center;
+    }
+    
+    /* Filtres */
+    
+    .filtres > h3{
+        text-align: center;
+    }
+    
+    #filtres{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+    }
+    
+    /* Ligne information */
+    
+    .ligneInfo{
+        justify-content: center;
+    }
+    
+    .filtres{
+        flex-direction: column;
+    }
+    
+    /* Bloc Hôtels */
+    
+    .conteneurHotel{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    /* Bloc Populaire */
+    
+    .blocPopulaire{
+        margin: 0;
+        border-radius: 0;
+    }
+    
+    /* Bloc Hébergements */
+    
+    .blocHebergements{
+        background-color: white;
+    }
+    
+    .ongletHebergements{
+        gap: 36.9px;
+    }
+    
+    
+    /* Afficher plus */
+    .more{
+        text-align: center;
+    }
+    
+    /* Activités */
+    
+    .blocActivites{
+        width: 95%;
+        margin: 10px auto;
+        gap: 10px;
+    }
+    
+    #activitiesAnchor{
+        margin: 15px;
+    }
+    }
