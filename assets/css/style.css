@@ -9,6 +9,7 @@
     --blue: #0065FC;
     --grey: #F2F2F2;
     font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body > *{
